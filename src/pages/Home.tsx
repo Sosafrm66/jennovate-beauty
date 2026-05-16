@@ -54,7 +54,7 @@ function Hero() {
       <div className="hidden md:block absolute inset-0 w-full h-[120%] -top-[10%]">
         <motion.div style={{ y }} className="w-full h-full">
           <img
-            src="/images/hero.png"
+            src="/images/hero.jpg"
             alt="Luxury beauty editorial"
             className="w-full h-full object-cover object-[50%_15%] opacity-85"
           />
@@ -62,7 +62,7 @@ function Hero() {
       </div>
       <div className="md:hidden absolute inset-0 w-full h-full">
         <img
-          src="/images/hero.png"
+          src="/images/hero.jpg"
           alt="Luxury beauty editorial"
           className="w-full h-full object-cover object-[50%_10%] opacity-85"
         />
@@ -194,14 +194,14 @@ function Gallery() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
           <motion.div style={{ y: y1 }} className="relative h-[60vh] md:h-[80vh] w-full">
             <img
-              src="/images/gallery-braids.png"
+              src="/images/gallery-braids.jpg"
               alt="Intricate luxury braids"
               className="w-full h-full object-cover"
             />
           </motion.div>
           <motion.div style={{ y: y2 }} className="relative h-[50vh] md:h-[70vh] w-full md:mt-32">
             <img
-              src="/images/gallery-nails.png"
+              src="/images/gallery-nails.jpg"
               alt="Luxury nail art"
               className="w-full h-full object-cover"
             />
