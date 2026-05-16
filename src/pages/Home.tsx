@@ -19,7 +19,7 @@ function Navigation() {
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         <span className="font-sans font-medium text-xs tracking-[0.25em] text-foreground uppercase">
-          Jennovate
+          Koko
         </span>
         <nav className="hidden md:flex gap-10">
           {["Services", "Experience", "Gallery", "Contact"].map((item) => (
@@ -81,7 +81,7 @@ function Hero() {
         >
           <p className="font-sans text-primary text-[11px] tracking-[0.25em] uppercase mb-4 md:mb-6 flex items-center gap-4">
             <span className="w-12 h-px bg-primary block"></span>
-            Miami Shores, FL
+            Miami
           </p>
           <h1 className="font-serif text-[clamp(2.8rem,12vw,120px)] leading-[0.9] tracking-[-0.03em] text-foreground italic pr-4">
             Where beauty <br />
@@ -175,7 +175,7 @@ function Experience() {
             Subtle. <br className="md:hidden" /> Intentional. <br className="md:hidden" /> <span className="not-italic">Refined.</span>
           </h3>
           <p className="font-sans text-base md:text-lg leading-[1.9] text-foreground/70 max-w-2xl mx-auto">
-            Jennovate Beauty elevates braiding and nail artistry to the level of high fashion. Stepping into our studio is like walking onto a set. It's unhurried, deliberate, and deeply magnetic. We don't just provide a service; we author a transformation.
+            Koko elevates braiding and nail artistry to the level of high fashion. Stepping into our studio is like walking onto a set. It's unhurried, deliberate, and deeply magnetic. We don't just provide a service; we author a transformation.
           </p>
         </motion.div>
       </div>
@@ -233,7 +233,7 @@ function Contact() {
             <span className="italic">Your Session</span>
           </h2>
           <p className="font-sans text-sm tracking-[0.1em] uppercase mb-16 text-background/60">
-            Miami Shores, FL
+            Miami
           </p>
           <a
             href="mailto:booking@jennovatebeauty.com"
@@ -253,13 +253,13 @@ function Footer() {
     <footer className="bg-background py-12 border-t border-primary/20">
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
         <span className="font-sans font-medium text-[10px] tracking-[0.2em] text-foreground/50 uppercase">
-          © 2025 Jennovate Beauty
+          © 2025 Koko
         </span>
         <span className="font-serif text-lg text-primary italic">
-          Jennovate
+          Koko
         </span>
         <span className="font-sans text-[10px] tracking-[0.2em] text-foreground/50 uppercase">
-          Miami Shores, FL
+          Miami
         </span>
       </div>
     </footer>
