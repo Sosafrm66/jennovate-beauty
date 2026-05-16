@@ -18,7 +18,7 @@ function Navigation() {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        <span className="font-sans font-medium text-xs tracking-[0.25em] text-foreground uppercase">
+        <span className="font-serif text-2xl md:text-3xl italic tracking-[0.08em] text-primary" style={{ fontWeight: 400 }}>
           Koko
         </span>
         <nav className="hidden md:flex gap-10">
